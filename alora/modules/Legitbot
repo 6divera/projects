@@ -1,4 +1,4 @@
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/6divera/alora/project/aiming/module"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/6divera/projects/main/alora/modules/uwu"))()
 Aiming.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
