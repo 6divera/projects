@@ -1,3 +1,4 @@
+
 local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/6divera/projects/main/elysium/module/uwu.lua"))()
 Aiming.TeamCheck(false)
 
