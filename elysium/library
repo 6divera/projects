@@ -256,7 +256,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	LeftFrameBtnIcon.Selectable = true
 	LeftFrameBtnIcon.Size = UDim2.new(0, 27, 0, 27)
 	LeftFrameBtnIcon.ZIndex = 3
-	LeftFrameBtnIcon.Image = "rbxassetid://6604756767"
+	LeftFrameBtnIcon.Image = "rbxassetid://5844057859"
 
 	MainTabs.Name = "MainTabs"
 	MainTabs.Parent = LeftFrame
@@ -305,7 +305,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	MainTabsBtnIcon.Selectable = true
 	MainTabsBtnIcon.Size = UDim2.new(0, 21, 0, 21)
 	MainTabsBtnIcon.ZIndex = 3
-	MainTabsBtnIcon.Image = "rbxassetid://6604756767"
+	MainTabsBtnIcon.Image = "rbxassetid://5844057859"
 
 	Shapes.Name = "Shapes"
 	Shapes.Parent = MainTabs
