@@ -934,15 +934,6 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 			CurrentValueFrame.BorderSizePixel = 0
 			CurrentValueFrame.Size = UDim2.new((start or 0) / max, 0, 0, 3)
 
-			SlideCircle.Name = "SlideCircle"
-			SlideCircle.Parent = SlideFrame
-			SlideCircle.BackgroundColor3 = Color3.fromRGB(124, 37, 255)
-			SlideCircle.BackgroundTransparency = 1.000
-			SlideCircle.Position = UDim2.new((start or 0)/max, -6,-0.93499995, 0)
-			SlideCircle.Size = UDim2.new(0, 8, 0, 8)
-			SlideCircle.Image = "rbxassetid://3570695787"
-			SlideCircle.ImageColor3 = Color3.fromRGB(255, 255, 255)
-
 			Value.Name = "Value"
 			Value.Parent = SliderTitle
 			Value.AnchorPoint = Vector2.new(1, 0.5)
