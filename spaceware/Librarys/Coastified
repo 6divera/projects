@@ -256,7 +256,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	LeftFrameBtnIcon.Selectable = true
 	LeftFrameBtnIcon.Size = UDim2.new(0, 27, 0, 27)
 	LeftFrameBtnIcon.ZIndex = 3
-	LeftFrameBtnIcon.Image = "http://www.roblox.com/asset/?id=6604768925"
+	LeftFrameBtnIcon.Image = "http://www.roblox.com/asset/?id=6604761101"
 
 	MainTabs.Name = "MainTabs"
 	MainTabs.Parent = LeftFrame
@@ -305,7 +305,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	MainTabsBtnIcon.Selectable = true
 	MainTabsBtnIcon.Size = UDim2.new(0, 21, 0, 21)
 	MainTabsBtnIcon.ZIndex = 3
-	MainTabsBtnIcon.Image = "http://www.roblox.com/asset/?id=6604768925"
+	MainTabsBtnIcon.Image = "http://www.roblox.com/asset/?id=6604761101"
 
 	Shapes.Name = "Shapes"
 	Shapes.Parent = MainTabs
@@ -1142,7 +1142,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 			DropToggle.Size = UDim2.new(0, 23, 0, 23)
 			DropToggle.ZIndex = 2
 			DropToggle.Rotation = 90
-			DropToggle.Image = "http://www.roblox.com/asset/?id=7112454448"
+			DropToggle.Image = "http://www.roblox.com/asset/?id=7112452194"
 			DropToggle.ImageColor3 = Color3.fromRGB(255, 255, 255)
 			DropToggle.ImageRectOffset = Vector2.new(0, 0)
 			DropToggle.ImageRectSize = Vector2.new(0, 0)
