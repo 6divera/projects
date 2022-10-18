@@ -301,11 +301,11 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	MainTabsBtnIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	MainTabsBtnIcon.BackgroundTransparency = 1.000
 	MainTabsBtnIcon.Position = UDim2.new(0.744000018, 0, 0.128000006, 0)
-	MainTabsBtnIcon.Rotation = 270.000
+	MainTabsBtnIcon.Rotation = 90.000
 	MainTabsBtnIcon.Selectable = true
 	MainTabsBtnIcon.Size = UDim2.new(0, 21, 0, 21)
 	MainTabsBtnIcon.ZIndex = 3
-	MainTabsBtnIcon.Image = "http://www.roblox.com/asset/?id=6604761101"
+	MainTabsBtnIcon.Image = "http://www.roblox.com/asset/?id=6604756747"
 
 	Shapes.Name = "Shapes"
 	Shapes.Parent = MainTabs
