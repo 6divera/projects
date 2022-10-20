@@ -1,5 +1,5 @@
 
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/6divera/loop/main/Main.txt"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/6divera/projects/main/spaceware/Aiming/module"))()
 Aiming.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
