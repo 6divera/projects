@@ -1,4 +1,5 @@
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/6divera/projects/main/spaceware/Aiming/module"))()
+
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/6divera/loop/main/Main.txt"))()
 Aiming.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
@@ -57,4 +58,4 @@ RunService:BindToRenderStep("AimLock", 0, function()
 
         CurrentCamera.CFrame = CFrame.lookAt(CurrentCamera.CFrame.Position, Hit.Position)
     end
-end)
+    end)
