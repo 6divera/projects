@@ -226,7 +226,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	
 	LeftFrame.Name = "LeftFrame"
 	LeftFrame.Parent = MainFrame
-	LeftFrame.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	LeftFrame.BackgroundColor3 = Color3.fromRGB(45, 44, 46)
 	LeftFrame.BorderSizePixel = 0
 	LeftFrame.ClipsDescendants = true
 	LeftFrame.Size = UDim2.new(0, 41, 0, 331)
@@ -235,7 +235,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 
 	LeftFrameBtn.Name = "LeftFrameBtn"
 	LeftFrameBtn.Parent = LeftFrame
-	LeftFrameBtn.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	LeftFrameBtn.BackgroundColor3 = Color3.fromRGB(45, 44, 46)
 	LeftFrameBtn.BackgroundTransparency = 1.000
 	LeftFrameBtn.BorderSizePixel = 0
 	LeftFrameBtn.Position = UDim2.new(0, 0, 0.00999999978, 0)
@@ -270,7 +270,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 
 	MainTabsBtn.Name = "MainTabsBtn"
 	MainTabsBtn.Parent = MainTabs
-	MainTabsBtn.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+	MainTabsBtn.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 	MainTabsBtn.BackgroundTransparency = 1.000
 	MainTabsBtn.Position = UDim2.new(1.04878044, 0, 0.126829565, 0)
 	MainTabsBtn.Size = UDim2.new(0, 101, 0, 29)
@@ -658,7 +658,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 		TabBtnCircle.Parent = TabBtn
 		TabBtnCircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		TabBtnCircle.BackgroundTransparency = 1.000
-		TabBtnCircle.BorderColor3 = Color3.fromRGB(27, 42, 53)
+		TabBtnCircle.BorderColor3 = Color3.fromRGB(31, 31, 31)
 		TabBtnCircle.Position = UDim2.new(0.099, 0,0.427, 0)
 		TabBtnCircle.Size = UDim2.new(0, 4, 0, 4)
 		TabBtnCircle.ZIndex = 3
