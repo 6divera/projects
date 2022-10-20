@@ -226,7 +226,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	
 	LeftFrame.Name = "LeftFrame"
 	LeftFrame.Parent = MainFrame
-	LeftFrame.BackgroundColor3 = Color3.fromRGB(31, 28, 54)
+	LeftFrame.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
 	LeftFrame.BorderSizePixel = 0
 	LeftFrame.ClipsDescendants = true
 	LeftFrame.Size = UDim2.new(0, 41, 0, 331)
@@ -802,13 +802,13 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 					TweenService:Create(
 						ToggleBox,
 						TweenInfo.new(.35, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(135, 128, 176)}
+						{BackgroundColor3 = Color3.fromRGB(169, 168, 176)}
 					):Play()
 				else
 					TweenService:Create(
 						ToggleBox,
 						TweenInfo.new(.35, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(74, 68, 94)}
+						{BackgroundColor3 = Color3.fromRGB(44, 44, 44)}
 					):Play()
 				end
 			end)
@@ -847,7 +847,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 
 			ToggleBox.Name = "ToggleBox"
 			ToggleBox.Parent = ToggleBtn
-			ToggleBox.BackgroundColor3 = Color3.fromRGB(74, 68, 94)
+			ToggleBox.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
 			ToggleBox.Position = UDim2.new(0.927419364, 0, 0.15625, 0)
 			ToggleBox.Size = UDim2.new(0, 21, 0, 21)
 
@@ -919,7 +919,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 
 			SlideFrame.Name = "SlideFrame"
 			SlideFrame.Parent = SliderTitle
-			SlideFrame.BackgroundColor3 = Color3.fromRGB(74, 68, 94)
+			SlideFrame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
 			SlideFrame.BorderSizePixel = 0
 			SlideFrame.Position = UDim2.new(0.003, 0,0.945, 0)
 			SlideFrame.Size = UDim2.new(0, 340,0, 3)
@@ -936,7 +936,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 
 			SlideCircle.Name = "SlideCircle"
 			SlideCircle.Parent = SlideFrame
-			SlideCircle.BackgroundColor3 = Color3.fromRGB(124, 37, 255)
+			SlideCircle.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
 			SlideCircle.BackgroundTransparency = 1.000
 			SlideCircle.Position = UDim2.new((start or 0)/max, -6,-0.93499995, 0)
 			SlideCircle.Size = UDim2.new(0, 8, 0, 8)
@@ -946,7 +946,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 			Value.Name = "Value"
 			Value.Parent = SliderTitle
 			Value.AnchorPoint = Vector2.new(1, 0.5)
-			Value.BackgroundColor3 = Color3.fromRGB(74, 68, 94)
+			Value.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
 			Value.BackgroundTransparency = 0
 			Value.Position = UDim2.new(0.983, 0,0.484, 0)
 			Value.Size = UDim2.new(0, 38, 0, 21)
@@ -1534,7 +1534,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 
 			RainbowStatus.Name = "RainbowStatus"
 			RainbowStatus.Parent = RainbowToggle
-			RainbowStatus.BackgroundColor3 = Color3.fromRGB(74, 68, 94)
+			RainbowStatus.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
 			RainbowStatus.Position = UDim2.new(0.927419364, 0, 0.15625, 0)
 			RainbowStatus.Size = UDim2.new(0, 21, 0, 21)
 
@@ -1661,7 +1661,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 						TweenService:Create(
 							RainbowStatus,
 							TweenInfo.new(.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(135, 128, 1768)}
+							{BackgroundColor3 = Color3.fromRGB(169, 168, 176)}
 						):Play()
 
 						OldToggleColor = CurrentColor.BackgroundColor3
@@ -1683,7 +1683,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 						TweenService:Create(
 							RainbowStatus,
 							TweenInfo.new(.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(74, 68, 94)}
+							{BackgroundColor3 = Color3.fromRGB(44, 44, 44)}
 						):Play()
 						CurrentColor.BackgroundColor3 = OldToggleColor
 						Color.BackgroundColor3 = OldColor
