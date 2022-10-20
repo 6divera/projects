@@ -34,8 +34,8 @@ local tableremove = table.remove
 local tableinsert = table.insert
 
 -- // Silent Aim Vars
-local Aiming = {
-    Enabled = false,
+getgenv().Aiming = {
+    Enabled = true,
 
     ShowFOV = false,
     FOV = 50,
@@ -44,13 +44,11 @@ local Aiming = {
     Filled = false,
     Transparency = 0.5,
     VisibleCheck = false,
-
+    
     HitChance = 100,
 
     Selected = nil,
     SelectedPart = nil,
-    SelectedPosition = nil,
-    SelectedPositionOnScreen = nil,
 
     TargetPart = {"Head", "HumanoidRootPart"},
 
@@ -63,20 +61,16 @@ local Aiming = {
         },
         Players = {
             LocalPlayer,
-            1584635626,
-
+            91318356
         }
-    },
-
-    RaycastIgnore = nil,
-    Signals = SignalManager.new()
+    }
 }
-getgenv().Aiming = Aiming
+local Aiming = getgenv().Aiming
 
 -- // Create circle
 local circle = Drawingnew("Circle")
 circle.Transparency = 1
-circle.Thickness = 1.5
+circle.Thickness = 2
 circle.Color = Aiming.FOVColour
 circle.Filled = false
 Aiming.FOVCircle = circle
@@ -93,13 +87,13 @@ function Aiming.UpdateFOV()
     circle.Radius = (Aiming.FOV * 3)
     circle.Position = Vector2new(Mouse.X, Mouse.Y + GetGuiInset(GuiService).Y)
     circle.NumSides = Aiming.FOVSides
-    circle.Color = Aiming.FOVColour
     circle.Filled = Aiming.Filled
     circle.Transparency = Aiming.Transparency
 
     -- // Return circle
     return circle
 end
+
 -- // Custom Functions
 local CalcChance = function(percentage)
     -- // Floor the percentage
