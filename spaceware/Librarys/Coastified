@@ -632,7 +632,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 		end)
 
 
-		TabBtnGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 51, 52)), ColorSequenceKeypoint.new(1.00, CColor3.fromRGB(92, 99, 107)}
+		TabBtnGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(49, 51, 52)), ColorSequenceKeypoint.new(1.00, CColor3.fromRGB(92, 99, 107))}
 		TabBtnGradient.Name = "TabBtnGradient"
 		TabBtnGradient.Parent = TabBtn
 
