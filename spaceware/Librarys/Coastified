@@ -1138,7 +1138,6 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 			DropToggle.Name = "DropToggle"
 			DropToggle.Parent = Dropdown
 			DropToggle.BackgroundTransparency = 1.000
-			DropToggle.Position = UDim2.new(0.926, 0,0.135, 0)
 			DropToggle.Size = UDim2.new(0, 23, 0, 23)
 			DropToggle.ZIndex = 2
 			DropToggle.Image = "http://www.roblox.com/asset/?id=7112454448"
