@@ -252,7 +252,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	LeftFrameBtnIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	LeftFrameBtnIcon.BackgroundTransparency = 1.000
 	LeftFrameBtnIcon.Position = UDim2.new(0.14204666, 0, 0.145281106, 0)
-	LeftFrameBtnIcon.Rotation = 90.000
+	LeftFrameBtnIcon.Rotation = 270.000
 	LeftFrameBtnIcon.Selectable = true
 	LeftFrameBtnIcon.Size = UDim2.new(0, 20, 0, 20)
 	LeftFrameBtnIcon.ZIndex = 3
@@ -301,7 +301,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	MainTabsBtnIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	MainTabsBtnIcon.BackgroundTransparency = 1.000
 	MainTabsBtnIcon.Position = UDim2.new(0.744000018, 0, 0.128000006, 0)
-	MainTabsBtnIcon.Rotation = 270.000
+	MainTabsBtnIcon.Rotation = 0
 	MainTabsBtnIcon.Selectable = true
 	MainTabsBtnIcon.Size = UDim2.new(0, 21, 0, 21)
 	MainTabsBtnIcon.ZIndex = 3
