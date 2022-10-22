@@ -305,7 +305,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	MainTabsBtnIcon.Selectable = true
 	MainTabsBtnIcon.Size = UDim2.new(0, 21, 0, 21)
 	MainTabsBtnIcon.ZIndex = 3
-	MainTabsBtnIcon.Image = "rbxassetid://5844057859"
+	MainTabsBtnIcon.Image = "http://www.roblox.com/asset/?id=6604756747"
 
 	Shapes.Name = "Shapes"
 	Shapes.Parent = MainTabs
