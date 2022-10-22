@@ -254,9 +254,9 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	LeftFrameBtnIcon.Position = UDim2.new(0.14204666, 0, 0.145281106, 0)
 	LeftFrameBtnIcon.Rotation = 270.000
 	LeftFrameBtnIcon.Selectable = true
-	LeftFrameBtnIcon.Size = UDim2.new(0, 20, 0, 20)
+	LeftFrameBtnIcon.Size = UDim2.new(0, 27, 0, 27)
 	LeftFrameBtnIcon.ZIndex = 3
-	LeftFrameBtnIcon.Image = "http://www.roblox.com/asset/?id=6604756747"
+	LeftFrameBtnIcon.Image = "rbxassetid://5844057859"
 
 	MainTabs.Name = "MainTabs"
 	MainTabs.Parent = LeftFrame
@@ -301,7 +301,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	MainTabsBtnIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	MainTabsBtnIcon.BackgroundTransparency = 1.000
 	MainTabsBtnIcon.Position = UDim2.new(0.744000018, 0, 0.128000006, 0)
-	MainTabsBtnIcon.Rotation = 0
+	MainTabsBtnIcon.Rotation = 270.000
 	MainTabsBtnIcon.Selectable = true
 	MainTabsBtnIcon.Size = UDim2.new(0, 21, 0, 21)
 	MainTabsBtnIcon.ZIndex = 3
@@ -332,7 +332,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	Square.BackgroundTransparency = 1.000
 	Square.BorderColor3 = Color3.fromRGB(27, 42, 53)
 	Square.Position = UDim2.new(0.285780489, 0, 0.49642849, 0)
-	Square.Size = UDim2.new(0, 8, 0, 8)
+	Square.Size = UDim2.new(0, 7, 0, 7)
 	Square.ZIndex = 3
 	Square.Image = "http://www.roblox.com/asset/?id=5118326498"
 
@@ -1138,9 +1138,11 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 			DropToggle.Name = "DropToggle"
 			DropToggle.Parent = Dropdown
 			DropToggle.BackgroundTransparency = 1.000
+			DropToggle.Position = UDim2.new(0.926, 0,0.135, 0)
 			DropToggle.Size = UDim2.new(0, 23, 0, 23)
 			DropToggle.ZIndex = 2
-			DropToggle.Image = "http://www.roblox.com/asset/?id=7112454448"
+			DropToggle.Rotation = 90
+			DropToggle.Image = "rbxassetid://5844057859"
 			DropToggle.ImageColor3 = Color3.fromRGB(255, 255, 255)
 			DropToggle.ImageRectOffset = Vector2.new(0, 0)
 			DropToggle.ImageRectSize = Vector2.new(0, 0)
