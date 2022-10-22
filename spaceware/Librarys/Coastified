@@ -252,11 +252,11 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	LeftFrameBtnIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	LeftFrameBtnIcon.BackgroundTransparency = 1.000
 	LeftFrameBtnIcon.Position = UDim2.new(0.14204666, 0, 0.145281106, 0)
-	LeftFrameBtnIcon.Rotation = 270.000
+	LeftFrameBtnIcon.Rotation = 0.000
 	LeftFrameBtnIcon.Selectable = true
 	LeftFrameBtnIcon.Size = UDim2.new(0, 27, 0, 27)
 	LeftFrameBtnIcon.ZIndex = 3
-	LeftFrameBtnIcon.Image = "rbxassetid://5844057859"
+	LeftFrameBtnIcon.Image = "http://www.roblox.com/asset/?id=6604756747"
 
 	MainTabs.Name = "MainTabs"
 	MainTabs.Parent = LeftFrame
@@ -305,7 +305,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	MainTabsBtnIcon.Selectable = true
 	MainTabsBtnIcon.Size = UDim2.new(0, 21, 0, 21)
 	MainTabsBtnIcon.ZIndex = 3
-	MainTabsBtnIcon.Image = "http://www.roblox.com/asset/?id=6604756747"
+	MainTabsBtnIcon.Image = "rbxassetid://5844057859"
 
 	Shapes.Name = "Shapes"
 	Shapes.Parent = MainTabs
@@ -332,7 +332,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	Square.BackgroundTransparency = 1.000
 	Square.BorderColor3 = Color3.fromRGB(27, 42, 53)
 	Square.Position = UDim2.new(0.285780489, 0, 0.49642849, 0)
-	Square.Size = UDim2.new(0, 7, 0, 7)
+	Square.Size = UDim2.new(0, 8, 0, 7)
 	Square.ZIndex = 3
 	Square.Image = "http://www.roblox.com/asset/?id=5118326498"
 
