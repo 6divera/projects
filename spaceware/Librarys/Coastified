@@ -1141,8 +1141,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 			DropToggle.Position = UDim2.new(0.926, 0,0.135, 0)
 			DropToggle.Size = UDim2.new(0, 23, 0, 23)
 			DropToggle.ZIndex = 2
-			DropToggle.Rotation = 90
-			DropToggle.Image = "rbxassetid://5844057859"
+			DropToggle.Image = "http://www.roblox.com/asset/?id=7112454448"
 			DropToggle.ImageColor3 = Color3.fromRGB(255, 255, 255)
 			DropToggle.ImageRectOffset = Vector2.new(0, 0)
 			DropToggle.ImageRectSize = Vector2.new(0, 0)
