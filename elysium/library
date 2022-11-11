@@ -247,16 +247,16 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	LeftFrameBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
 	LeftFrameBtn.TextSize = 14.000
 
-	LeftFrameBtnIcon.Name = "LeftFrameBtnIcon"
-	LeftFrameBtnIcon.Parent = MainToggle
-	LeftFrameBtnIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	LeftFrameBtnIcon.BackgroundTransparency = 1.000
-	LeftFrameBtnIcon.BorderSizePixel = 0
-	LeftFrameBtnIcon.Position = UDim2.new(0.5, -9, 0.5, -9)
-	LeftFrameBtnIcon.Rotation = 180.000
-	LeftFrameBtnIcon.Size = UDim2.new(0, 18, 0, 18)
-	LeftFrameBtnIcon.ZIndex = 2
-	LeftFrameBtnIcon.Image = "rbxassetid://4905746471"
+        LeftFrameBtnIcon.Name = "LeftFrameBtnIcon"
+        LeftFrameBtnIcon.Parent = LeftFrame
+        LeftFrameBtnIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        LeftFrameBtnIcon.BackgroundTransparency = 1.000
+        LeftFrameBtnIcon.BorderSizePixel = 0
+        LeftFrameBtnIcon.Position = UDim2.new(0.5, -9, 0.5, -9)
+        LeftFrameBtnIcon.Rotation = 180.000
+        LeftFrameBtnIcon.Size = UDim2.new(0, 18, 0, 18)
+        LeftFrameBtnIcon.ZIndex = 2
+        LeftFrameBtnIcon.Image = "http://www.roblox.com/asset/?id=4905746471"
 
 	MainTabs.Name = "MainTabs"
 	MainTabs.Parent = LeftFrame
@@ -1135,17 +1135,15 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 			DropdownTitle.TextTransparency = 0
 			DropdownTitle.Text = text
 
-			DropToggle.Name = "DropToggle"
-			DropToggle.Parent = Dropdown
-			DropToggle.BackgroundTransparency = 1.000
-			DropToggle.Position = UDim2.new(0.926, 0,0.135, 0)
-			DropToggle.Size = UDim2.new(0, 23, 0, 23)
-			DropToggle.ZIndex = 2
-			DropToggle.Rotation = 90
-			DropToggle.Image = "rbxassetid://5844057859"
-			DropToggle.ImageColor3 = Color3.fromRGB(255, 255, 255)
-			DropToggle.ImageRectOffset = Vector2.new(0, 0)
-			DropToggle.ImageRectSize = Vector2.new(0, 0)
+                        DropToggle.Name = "DropToggle"
+                        DropToggle.Parent = Dropdown
+                        DropToggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                        DropToggle.BackgroundTransparency = 1.000
+                        DropToggle.BorderSizePixel = 0
+                        DropToggle.Position = UDim2.new(0, 300, 0, 5)
+                        DropToggle.Size = UDim2.new(0, 16, 0, 16)
+                        DropToggle.ZIndex = 2
+                        DropToggle.Image = "rbxassetid://4852002601"
 
 			local DropItemHolder = Instance.new("ScrollingFrame")
 			local DropItemHolderUIList = Instance.new("UIListLayout")
